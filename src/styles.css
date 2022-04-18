@@ -9,6 +9,7 @@ section {
 
 .hero {
     background-color: #1c1d25;
+    width: auto;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -215,5 +216,14 @@ footer {
 
     ul.show {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    h1 {
+        font-size: 50px;
+    }
+    p{
+        font-size: large;
     }
 }
